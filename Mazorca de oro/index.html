@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>	
+	<meta charset="UFT-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mazorca de oro</title>
+	<link rel="stylesheet" href="style.css"> <!--Enlace al archivo de estilo-->
+<!--Titulo de la pagina en la pestaña-->
+</head>
+<body>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de opciones</title>
+
+<!--Barra de navegacion-->
+
+<header class="header">
+	<div class="container">	
+		<div class="menu">
+			<a href="#" class="logo">mazorca de oro</a> 
+			<input type="checkbox" id="menu" >
+			<label for="menu">
+				<img src="images/menu.png" width="25" height="20px" alt="Menu icon">	
+			</label>
+			<nav class="navbar">
+		<!--Barra de navegacion-->
+				<ul>
+					<li> <a href="#Combos">Combos</a> </li> <!--Enlace a la seccion de combo-->
+					<li> <a href="#formulariocompra">Formulario</a> </li>  <!--Enlace al formulario-->
+					<li> <a href="#Cartelera">Cartelera</a> </li> <!--Enlace a la cartelera-->
+					<li> <a href="#"> </a> </li>
+				</ul>
+			</nav>
+		</div>	
+	</div>
+</header>
+
+<!--Seccion de contenido principal-->
+<!--titulo de la pelicuma y sinopsis-->
+<div class="header-content">
+	<div class="header-txt">
+		<h1>La ultima sombra</h1> <!--titulo pelicula-->
+		<p>
+		Un grupo de jóvenes investigadores paranormales decide explorar la antigua mansión de la familia Aldebaran, una propiedad aislada en un pequeño pueblo en la costa, conocida por sus oscuros rumores. La mansión lleva décadas abandonada, pero su historia está marcada por una serie de muertes inexplicables y desapariciones sin resolver. A medida que los investigadores comienzan a explorar la casa, pronto descubren que la mansión no está vacía. Algo oscuro y antiguo habita entre sus paredes.
+		<br>
+		</p> <!--sinopsis-->
+	<ul>	
+		<li> <a href="# formulariocompra" class="btn-1" >boletos</a> </li> <!--enlace-->
+	</ul>
+	</div>
+	<div class="header-img"> 
+		<img src="images/mascota.png" width="350" height="400px"> <!--imagen mascota-->
+	</div>
+</div>
+
+<!--animacion-->
+<head>
+<section id="animacion"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos en Horizontal</title>
+    <style>
+        .contenedor {
+            display: flex;
+            justify-content: center; /* Espacio entre los elementos */
+            align-items: center; /* Alineación vertical (si hay diferentes alturas) */
+        }
+        .item {
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+        }
+    </style>
+
+<!--Imagen cartel-->  
+<div class="header-img"> 
+		<img src="images/cartelp.png" width="350" height="400px"> 
+</div>
+
+
+<!-- animacion y cartel pelicula-->  
+</head>
+<body>
+    <div class="contenedor">
+        <div class="item"></div>
+        <video width="400" controls autoplay muted loop>
+        <source src="images/animacion.mp4" type="video/mp4"> <!--animacion-->
+        Tu navegador no soporta la etiqueta de video.
+    </video>
+        <div class="item"> </div>
+        <div class="header-img"> 
+		<img src="images/cartel.png" width="350" height="400px"> 
+	</div>
+    </div>
+</body>
+
+<!--Formulario de compra-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Formulario de compra</title>
+</head>
+<body>
+	<h1 id="formulariocompra">Formulario de compra</h1>  <!--boton menu anclar-->
+	<form action= "#" method="post">
+		<!--El usuario ingresa su nombre-->
+		<label for="nombre">Nombre completo:</label><br>
+		<input type="text" id="nombre" name="nombre" required><br><br>
+       <!--El usuario ingresa su correo electronico-->
+		<label for="email">Correo electronico:</label><br>
+		<input type="email" id="email" name="email" required><br><br>
+      <!--El usuario ingresa el dia de funcion-->
+		<label for="Fecha">Dia de funcion</label><br>
+		<input type="date" id="date" name="date" required><br><br>
+       <!--El usuario selecciona su horario-->
+		<label for= "department-selection"> Selecciona un horario:</label>
+		<select id="department-selection" name="concerned_department" required>
+			<option value="">Selecciona un horario</option>
+			<option value="10:00-11:40">10:00-11:40</option>
+			<option value="12:00-13:40">12:00-13:40</option>
+			<option value="14:00-15:40">14:00-15:40</option>
+			<option value="17:30-19:10">15:30-17:10</option>
+			<option value="20:00-21:40">20:00-21:40</option>
+		</select>
+      <!--El usuario selecciona la sala-->
+		<p>Selecciona tu sala de preferencia:</p>
+
+		<input type="radio" name="mat" value="VIP">
+		<label for="checkbox"> VIP </label>
+
+		<input type="radio" name="mat" value="3D">
+		<label for="checkbox"> 3D </label>
+
+		<input type="radio" name="mat" value="4X">
+		<label for="checkbox"> 4X </label>
+
+		<input type="radio" name="mat" value="IMAX">
+		<label for="checkbox"> IMAX </label>
+
+		<p><input type="checkbox" value="checkbox">Seguro de boleto</p>
+     <!--El usuario puede limpiar y enviar la informacion-->
+		<button type="submit">Enviar </button>
+		<button type="reset">Limpiar</button>
+
+
+<!--Cartelera de peliculas-->
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera</title>
+    <h1 id="Cartelera"></h1>  <!--boton menu anclar-->
+    <style>
+        body {
+            font-family: Poppins, sans-serif;
+            background-color: lightgray;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: darkslategray;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid lightgray;
+        }
+        th {
+            background-color: mediumseagreen;
+            color: white;
+        }
+        td {
+            background-color: whitesmoke;
+        }
+        tr:nth-child(even) td {
+            background-color: gainsboro;
+        }
+        tr:hover td {
+            background-color: lightgray;
+        }
+        .checkbox-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+</style>
+</head>
+<body>
+
+    <h1>Cartelera</h1>
+
+<table>  <!--tablau-->
+<head>
+            <tr>
+                <th>Película</th>
+                <th>Horario</th>
+            </tr>
+</head>
+</body>
+            <tr>
+                <td>La ultima sombra</td>
+                <td>
+                <div class="checkbox-group">
+                     <label><input type="checkbox" name="horario1" value="12:30 PM"> 10:00 AM</label>
+                     <label><input type="checkbox" name="horario1" value="5:00 PM"> 13:40 PM</label>
+                     <label><input type="checkbox" name="horario1" value="8:30 PM"> 15:30 PM</label>
+                     </div>
+                </td>
+</tr>
+<tr>
+                <td>Voces</td>
+                <td>
+                    <div class="checkbox-group">
+                    <label><input type="checkbox" name="horario2" value="1:00 PM"> 11:40 AM</label>
+                    <label><input type="checkbox" name="horario2" value="3:30 PM"> 14:00 PM</label>
+                    <label><input type="checkbox" name="horario2" value="7:00 PM"> 17:10 PM</label>
+                    </div>
+                </td>
+</tr>
+<tr>
+                <td>Los huespedes</td>
+                <td>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="horario3" value="2:00 PM"> 13:20 AM</label>
+                        <label><input type="checkbox" name="horario3" value="4:30 PM"> 16:40 PM</label>
+                        <label><input type="checkbox" name="horario3" value="6:30 PM"> 18:30 PM</label>
+                    </div>
+                </td>
+</tr>
+</body>
+</table>
+
+</body>
+</html>
+
+<!--Combos de dulceria-->
+<section id="Combos"> 
+	<h2>Combos</h2>
+	<h1 id="Combos"></h1>  <!--boton menu anclar-->
+	<table> <!--tabala para los combos-->
+		<tr>  
+			<td>
+				<div class="combo-content">
+					<div class="combo-1">
+					<img src="images/Dulceria1.png">
+					<h4>Combo Clasico</h4>
+					<p>palomitas jumbo + un refresco jumbo<br>$94</p>
+					</div>
+				</div>	
+			</td>
+			<td>
+				<div class="combo-content">
+					<div class="combo-2">
+					<img src="images/Dulceria2.png">
+					<h4>Combo Pareja</h4>
+					<p>Palomitas Jumbo + 2 refrescos jumbo + Maiz dulce<br>$189</p>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="combo-content">
+					<div class="combo-3">
+					<img src="images/Dulceria3.png">
+					<h4>Nuevo producto</h4>
+					<p>Helado de maiz dulce<br>$40</p>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table> 
+</main>
+
+	
+<br>
+</br>
+
+<!--pie de pagina con elemento footer-->
+<footer> 
+<!–Creamos una lista desordenada con el elemento ul y con li indicamos los items de la lista–>
+<ul>
+<li>Domicilio Mazorca de Oro, Cuautitlán, Estado de México C.P. 1234</li>
+<li>Atención telefónica: 55 1234 1234</li>
+<!–Agregamos el link del archivo de términos y condiciones–>
+<a href="doc/Terminos y Condiciones.pdf">  
+<li>Términos y condiciones</li> </a>
+<!–Enlazamos el aviso de privacidad–>
+<a href="doc/Aviso de privacidad.pdf">
+<li>Privacidad</li> </a>
+Otros sitios web que te pueden interesar:
+<!–Enlazamos Yahoo–>
+<a href="https://espanol.yahoo.com/">
+<li>Yahoo</li> </a>
+<!–Enlazamos Google–>
+<a href="https://www.google.com.mx/?hl=es">
+<li>Google</li> </a>
+<!–Enlazamos Amazon–>
+<a href="https://www.amazon.com.mx/">
+<li>Amazon</li> </a>
+</ul>
+</footer>	
+	
+</body>
+</html>

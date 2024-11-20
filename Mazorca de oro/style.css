@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*tamaño y color*/
+
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	text-decoration: none;
+ 	list-style: none;
+
+ }
+
+ body {
+	font-family: 'Poppins', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+/*tamaño de imagen combos*/
+
+ body {
+    background-color: #add8e6; /* Color azul claro usando código hexadecimal */
+}
+
+/*contenedor princiipal que centraliza*/
+.container {
+	max-width: 1200px; /*Ancho del contenedor*/
+	margin: 0 auto; /*centrar*/
+}
+
+/*Estilo de barra de navegacion y encabezado*/
+.header {
+	background-color: #ffe8cd; /*fondo para el encabezado*/
+}
+
+/*Barra de navegacion*/
+.menu {
+	display: flex;
+	justify-content: space-between; /*espacio entre los elementos*/
+	align-items: center;
+	padding: 20px 0;
+}
+
+.logo {
+	color: #fa8011; /*color logo*/
+	font-size: 25px;
+	font-weight: 800;
+	text-transform: uppercase; /*texto a mayusculas*/
+/*Tamaño color titulo mazorca*/
+}
+
+.menu .navbar ul {
+	display: flex; /*elementos de lista horizontal*/
+}
+
+.menu .navbar ul li a {
+	font-size: 18px;
+	padding: 0 20px;
+	color: #4f1c1b;
+	display: block;
+	font-weight: 600;
+/*enlases  barra texto color*/	
+}
+
+.menu .navbar ul li a:hover {
+	color: #4f1c1b; /*color cursor*/
+}
+
+/*menu hamburguesa*/
+#menu  {
+	display: none; /*menu oculto*/
+}
+
+.menu-icono {
+	width: 25px; /*icono del menu*/
+}
+
+.menu label {
+	cursor: pointer;
+	display: none; /*ocultar el emnu en pantallas grandes*/
+}
+
+/*contenido principal*/
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 0; /*Espacio inferior y superior del encabezado*/
+}
+
+.header-txt {
+	flex-basis: 50%; /*mitad del espacio disponible*/
+	padding-right: 80px; /*espacio derecho*/
+/*contornos*/
+}
+
+.header-txt h1 {
+	font-size: 50px;
+	line-height: 1.2; 
+	text-transform: uppercase;
+	color: #4A9696; /*color titulo*/
+	margin-bottom: 15px;
+
+/*tamaño texto titulo peli*/
+}
+
+ p {
+	font-size: 18px;
+	color: #000000; /*color parrafo (negro)*/
+	margin-bottom: 25px;
+/*parrafo*/
+}
+
+.btn-1 {
+	display: inline-block;
+	padding: 10px 25px;
+	color: #4f1c1b;
+	background-color: #FF8400; /*color del boton*/
+	text-transform: uppercase;
+	border-radius: 25px; /*esquinas enlace*/
+	font-size: 16px; /*tamaño letra enlace boton*/
+}
+
+.btn-1:hover {
+	background-color: #8800e6;
+/*color del fonfo del boton cuando pase el cursor*/
+}
+
+.header-img {
+	flex-basis: 40%; /*tamaño del espacio disponible cartel*/
+}
+
+/*seccion de servicios*/
+.services {
+	padding: 30px 10;
+	text-align: center;
+}
+
+h2 { /*combos tamaño y medida texto*/
+	color: #4A9696;
+	text-align: center;
+	font-size: 40px; /*tamaño titulo*/
+} 
+.services-content {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.services-1 {
+	flex-basis: calc(33.3% - 40px); /*tres elementos iguales con separacion*/
+}
+
+.services-1 img {
+	width: 30px; /*tamaño imagen*/
+	margin-bottom: 30px; /*espacio inferior*/
+}
+
+.services-1 h3 {
+	color: #26C6DA; /*Color de los titulos CAMBIO*/
+	font-size: 20px; /*tamaño texto*/
+	margin-bottom: 30px;
+}
+
+/*Seccion de productos*/
+.products {
+	padding: 0 0  80px 0;
+	text-align: center;
+}
+
+.products-content h4 {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /*Tres columnas*/
+	gap: 10px;/*Espacio entre columnas*/
+}
+
+.products-1 h4 {
+	background-color: #fa8011;
+	padding: 20px;
+}
+/*tamaño y color letras barra de texto*/
+
+.products-1 h4 {
+	color: #8800e6;
+	font-size: 2px;
+	margin-bottom: 30px;
+	/*letras pie de pagina*/
+}
+
+.products-1 p {
+	color: #FF8400;
+	margin-bottom: 30px;
+}
+
+
+/*combos rectangulo*/
+
+.combos-content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.combo-1, .combo-2, .combo-3{ 
+	flex-basis: calc(50% - 20px); /*elementos iguales con separacion*/
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /*sombra*/
+	border-radius: 20px;
+}
+
+.combo-1 img, .combo-2 img, .combo-3 img {
+	width: 120px; /*Tamaño de las imagenes de los combos*/
+	height: 120px;
+	border-radius: 15%; /*Bordes de la imagen*/
+	margin-bottom: 30px; /*Espacio inferior*/
+}
+
+.combo-1 h3, .combo-2 h3, .combo-3 h3 {
+	color: #1B1B1D;
+	font-size: 18px; /*Tamaño de texto para los combos*/
+	text-transform: uppercase;
+	margin-bottom: 30px; /*Margen parrafos*/
+}
+
+
+.combo-1 p, .combo-2 p, .combo-3 p {
+	margin-bottom: 0;
+}
+
+/*pie de pagina*/
+/*revisar*/
+.footer {
+	border-top: 1px solid #1B1B1D2B; /*linea de separacion*/
+	padding: 20px 0;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-content ui {
+	display: flex; /*Alinea los enlaces del pie de pagina horizontalmente*/
+}
+
+.footer-content ul li a {
+	display: block;
+	padding: 10px;
+	color: #1B1B1D;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.footer-content ul li a:hover{
+	color: #FF8400; /*Color de los enlaces al pasar el curasor*/
+}
+
+/*Medida para las pantallas pequeñas*/
+@media(max-width: 991px){
+	/*Estilo para pantallas pequeñas*/
+	.menu {
+		padding: 20px;
+		position: relative;
+	}
+
+	.menu label{
+		display: initial; /*Muestra del poton menu para pantallas pequeñas*/
+	}
+
+	.menu .navbar{
+		position: 100%;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background-color: #FF5A2C;
+		display: none; /*Ocultar el menu por defecto*/
+	}
+
+	.menu .navbar ul{
+		flex-direction: column; /*Los enlaces se amplian verticalmente*/
+	}
+
+	.menu .navbar ul li a:hover{
+		color: #FFFFFF;
+	}
+
+	#menu:checked ~ .navbar{
+		display: initial; /*Se muestra el menu cuando el checkbox esta marcado*/
+	}
+
+	.header-content {
+		padding: 30px;
+		flex-direction: column; /*Centra los elementos en columnas*/
+		text-align: center;
+	}
+
+	.header-txt {
+		padding: 0 0 40px 0;
+	}
+
+	.services {
+		padding: 30px;
+	}
+
+	.services-content {
+	flex-direction: column; /*Los servicios se amplian verticalmente*/
+	margin-top: 30px;
+	}
+
+	.products{
+		padding: 30px;
+	}
+
+	.products-content {
+		margin-top: 30px;
+		grid-template-columns: repeat(1, 1fr); /*Se muesra solo una columna en pantallas pequeñas*/
+	}
+
+	.combos-content {
+		flex-basis: 100%; /*Los combos ocupan todo el ancho*/
+		margin-bottom: 20px;
+	}
+
+	.combo-1 img, .combo-2 img, .combo-3 img {
+		width: 100px; /*Tamaño mas pequeño de las imagenes en dispositivos pequeños*/
+		height: 100px;
+	}
+
+
+}
